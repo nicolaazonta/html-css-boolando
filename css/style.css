@@ -266,16 +266,23 @@
     background-color:var(--tb-bck-footer);
     height: 5rem;
     align-items: center;
+    color: white;
+    font-size: .7rem;
 }
 #footerbar{
     justify-content: space-between;
 }
 
-#footerbar>div{
-    background-color: aqua;
-    width: 4rem;
-    height: 2rem;
+.social span{
+    padding: .3rem;
 }
+#app_footer .social i{
+    font-size: .8rem;
+    padding-top: .2rem;
+    margin-left:  -0.2rem;
+}
+
+
 /* #endregion */
 
 
