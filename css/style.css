@@ -14,6 +14,13 @@
 .dashed_2{
     border: dashed 2px black;
 }
+.pt_3{
+    padding-top: 3rem;
+}
+.lr_05{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
 .cont_70{
     width: 70%;
     max-width: 1152px;
@@ -34,11 +41,12 @@
 .pos_abs{
     position: absolute;
 }
-.pos_sti{
-    position: sticky;
-}
 .col4{
     width: calc(100% / 12 * 4);
+}
+.row{
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 }
 
 
@@ -66,6 +74,14 @@
 
 
 /* #region----main */
+
+.card{
+    padding: 0.3rem;
+}
+#app_main img{
+    width: 100%;
+}
+
 /* #endregion */
 
 
@@ -76,8 +92,6 @@
     background-color:var(--tb-bck-footer);
     height: 5rem;
     align-items: center;
-    position: absolute;
-    bottom: 0;
 }
 #footerbar{
     justify-content: space-between;
