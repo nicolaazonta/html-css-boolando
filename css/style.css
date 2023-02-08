@@ -1,0 +1,49 @@
+
+/* #region----commons */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion */
+
+
+
+/* #region----utilities */
+.pos_rel{
+    position: relative;
+}
+.pos_abs{
+    position: absolute;
+}
+.pos_sti{
+    position: sticky;
+}
+.col4{
+    width: calc(100% / 12 * 4);
+}
+
+
+/* #endregion */
+
+
+/* #region----header */
+/* #endregion */
+
+
+/* #region----main */
+/* #endregion */
+
+
+/* #region----footer */
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
