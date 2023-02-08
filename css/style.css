@@ -160,24 +160,39 @@
     background-color:var(--tb-bck-header);
     height: 3.5rem;
     align-items: center;
+    position: fixed;
+    color: white;
+    font-size: .7rem;
+    font-weight: 500;
 }
 #navbar{
     justify-content: space-between;
 }
 
-#navbar>div{
-    background-color: aqua;
-    width: 4rem;
-    height: 2rem;
+#navbar span
+{
+    padding: .3rem;
+    line-height: .5rem;
 }
+.logo{
+    width: 6rem;
+    margin-left: -6rem;
+}
+
+
+
 
 /* #endregion */
 
 
 /* #region----main */
-
+.pt_5{
+    padding-top: 5rem;
+}
 .card{
     padding: 0.3rem;
+    padding-top: 3rem;
+
 }
 #app_main img{
     width: 100%;
