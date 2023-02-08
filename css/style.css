@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
 }
 /* #endregion */
 
@@ -43,13 +45,112 @@
 }
 .col4{
     width: calc(100% / 12 * 4);
+    padding-bottom: 2rem;
 }
 .row{
     justify-content: space-between; 
     flex-wrap: wrap; 
 }
+#card6 .eco{
+    left: 0;
+}
+/* #endregion */
 
 
+/* #region----HOVER --1 */
+.img1b{
+    display: none;
+}
+#card1:hover .img1{
+    display: none;
+}
+#card1:hover .img1b{
+    display: block;
+    cursor: pointer;
+}
+#card1:hover .heart{
+    color: var(--tb-red);
+}
+/* #endregion */
+
+/* #region----HOVER --2 */
+.img2b{
+    display: none;
+}
+#card2:hover .img2{
+    display: none;
+}
+#card2:hover .img2b{
+    display: block;
+    cursor: pointer;
+}
+#card2:hover .heart{
+    color: var(--tb-red);
+}
+/* #endregion */
+
+/* #region----HOVER --3 */
+.img3b{
+    display: none;
+}
+#card3:hover .img3{
+    display: none;
+}
+#card3:hover .img3b{
+    display: block;
+    cursor: pointer;
+}
+#card3:hover .heart{
+    color: var(--tb-red);
+}
+/* #endregion */
+
+/* #region----HOVER --4 */
+.img4b{
+    display: none;
+}
+#card4:hover .img4{
+    display: none;
+}
+#card4:hover .img4b{
+    display: block;
+    cursor: pointer;
+}
+#card4:hover .heart{
+    color: var(--tb-red);
+}
+/* #endregion */
+
+/* #region----HOVER --5 */
+.img5b{
+    display: none;
+}
+#card5:hover .img5{
+    display: none;
+}
+#card5:hover .img5b{
+    display: block;
+    cursor: pointer;
+}
+#card5:hover .heart{
+    color: var(--tb-red);
+}
+/* #endregion */
+
+/* #region----HOVER --6 */
+.img6b{
+    display: none;
+}
+#card6:hover .img6{
+    display: none;
+}
+#card6:hover .img6b{
+    display: block;
+    cursor: pointer;
+}
+#card6:hover .heart{
+    color: var(--tb-red);
+}
 /* #endregion */
 
 
@@ -81,6 +182,63 @@
 #app_main img{
     width: 100%;
 }
+.heart{
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    background-color: white;
+    padding: 0.4rem 0.9rem;
+    font-size: 1.8rem;
+}
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 4rem;
+    background-color: var(--tb-red);
+    padding: 0.2rem 0.45rem;
+    font-size: .7rem;
+    color: white;
+    font-weight: 500;
+}
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 2.5rem;
+    background-color: var(--tb-red);
+    padding: 0.2rem 0.45rem;
+    font-size: .7rem;
+    color: white;
+    font-weight: 500;
+}
+.eco{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 2.5rem;
+    background-color: var(--tb-card-green);
+    padding: 0.2rem 0.45rem;
+    font-size: .7rem;
+    color: white;
+    font-weight: 500;
+}
+.striket{
+    text-decoration: line-through;
+    margin-left: .2rem;
+}
+.brand, .model, .price>.striket{
+    color: black;
+}
+.brand{
+    font-size: .7rem;
+}
+.model{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.price{
+    font-size: .7rem;
+    color: var(--tb-red);
+    font-weight: 600;
+}
 
 /* #endregion */
 
@@ -88,6 +246,7 @@
 /* #region----footer */
 
 #app_footer{
+    margin-top: 3rem;
     width: 100%;
     background-color:var(--tb-bck-footer);
     height: 5rem;
